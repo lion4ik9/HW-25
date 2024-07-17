@@ -1,0 +1,30 @@
+.one,
+.two,
+.three {
+    width: 250px;
+    height: 250px;
+}
+
+.one {
+    position: absolute;
+    top: 30px;
+    right: 1000px;
+    z-index: 1;
+    background-color: pink;
+}
+
+.two {
+    position: absolute;
+    top: 90px;
+    right: 900px;
+    z-index: 2;
+    background-color: darkgreen;
+}
+
+.three {
+    position: absolute;
+    top: 140px;
+    right: 800px;
+    z-index: 1;
+    background-color: firebrick;
+}
